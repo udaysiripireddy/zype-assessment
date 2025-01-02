@@ -1,0 +1,209 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+.nav-bars {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #fff;
+}
+
+.nav-links a.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  bottom: -5px;
+  left: 0;
+}
+
+.right-side-header button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  margin: 20px;
+  padding: 10px 10px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.right-side-header button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.main-section {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: initial;
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+  padding: 50px;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+
+}
+
+.main-page-button button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  align-items: center;
+  margin: 3% 40%;
+  padding: 10px 10px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+.main-page-button button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.success-text {
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.revenue-text {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.images {
+  align-items: center;
+  width: 70%;
+  background-size: cover;
+  padding: 3% 15%;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 100px;
+}
+
+
+
+.idea-article{
+  padding-top: 10%;
+  width: 50%;
+  
+
+}
+.form-article{
+  width: 100%;
+}
+.form-page-button button{
+  background-color: transparent;
+  border: 2px solid black;
+  color:black;
+  align-items: center;
+  margin: 3% 25%;
+  padding: 10px 0px;
+  font-size: 14px;
+  width: 60%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.form-page-button button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.chat-page-button button{
+  background-color: transparent;
+  border: 2px solid black;
+  color:black;
+  align-items: center;
+  margin: 3% 25%;
+  padding: 10px 0px;
+  font-size: 14px;
+  width: 60%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.chat-page-button button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.text-box{
+  width: 33%;
+  padding: 30px;
+  font-family:sans-serif;
+}
+
+
